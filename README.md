@@ -1,6 +1,6 @@
 ## Instruction
 
-This is a simple music play on OS X.
+This is a simple music player on OS X.
 
 The Tutorial is in TakoBear.tw
 
