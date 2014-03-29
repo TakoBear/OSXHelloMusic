@@ -18,6 +18,8 @@
 		091930C318E697DD00448F21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091930A218E697DD00448F21 /* Cocoa.framework */; };
 		091930CB18E697DD00448F21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 091930C918E697DD00448F21 /* InfoPlist.strings */; };
 		091930CD18E697DD00448F21 /* HelloMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 091930CC18E697DD00448F21 /* HelloMusicTests.m */; };
+		091930D918E697E800448F21 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091930D718E697E800448F21 /* MainWindowController.m */; };
+		091930DA18E697E800448F21 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 091930D818E697E800448F21 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		091930C818E697DD00448F21 /* HelloMusicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloMusicTests-Info.plist"; sourceTree = "<group>"; };
 		091930CA18E697DD00448F21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		091930CC18E697DD00448F21 /* HelloMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloMusicTests.m; sourceTree = "<group>"; };
+		091930D618E697E800448F21 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		091930D718E697E800448F21 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		091930D818E697E800448F21 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +120,10 @@
 		091930A818E697DD00448F21 /* HelloMusic */ = {
 			isa = PBXGroup;
 			children = (
+				091930DC18E697F400448F21 /* Controllers */,
+				091930DB18E697EC00448F21 /* Resouces */,
 				091930B418E697DD00448F21 /* bearAppDelegate.h */,
 				091930B518E697DD00448F21 /* bearAppDelegate.m */,
-				091930B718E697DD00448F21 /* MainMenu.xib */,
 				091930BA18E697DD00448F21 /* Images.xcassets */,
 				091930A918E697DD00448F21 /* Supporting Files */,
 			);
@@ -152,6 +158,24 @@
 				091930C918E697DD00448F21 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		091930DB18E697EC00448F21 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				091930B718E697DD00448F21 /* MainMenu.xib */,
+				091930D818E697E800448F21 /* MainWindowController.xib */,
+			);
+			name = Resouces;
+			sourceTree = "<group>";
+		};
+		091930DC18E697F400448F21 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				091930D618E697E800448F21 /* MainWindowController.h */,
+				091930D718E697E800448F21 /* MainWindowController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +259,7 @@
 				091930BB18E697DD00448F21 /* Images.xcassets in Resources */,
 				091930B318E697DD00448F21 /* Credits.rtf in Resources */,
 				091930B918E697DD00448F21 /* MainMenu.xib in Resources */,
+				091930DA18E697E800448F21 /* MainWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				091930D918E697E800448F21 /* MainWindowController.m in Sources */,
 				091930B618E697DD00448F21 /* bearAppDelegate.m in Sources */,
 				091930AF18E697DD00448F21 /* main.m in Sources */,
 			);
