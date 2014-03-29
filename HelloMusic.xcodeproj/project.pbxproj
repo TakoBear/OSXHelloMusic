@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091930A318E697DD00448F21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091930A218E697DD00448F21 /* Cocoa.framework */; };
+		091930AD18E697DD00448F21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 091930AB18E697DD00448F21 /* InfoPlist.strings */; };
+		091930AF18E697DD00448F21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 091930AE18E697DD00448F21 /* main.m */; };
+		091930B318E697DD00448F21 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 091930B118E697DD00448F21 /* Credits.rtf */; };
+		091930B618E697DD00448F21 /* bearAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 091930B518E697DD00448F21 /* bearAppDelegate.m */; };
+		091930B918E697DD00448F21 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 091930B718E697DD00448F21 /* MainMenu.xib */; };
+		091930BB18E697DD00448F21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091930BA18E697DD00448F21 /* Images.xcassets */; };
+		091930C218E697DD00448F21 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091930C118E697DD00448F21 /* XCTest.framework */; };
+		091930C318E697DD00448F21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091930A218E697DD00448F21 /* Cocoa.framework */; };
+		091930CB18E697DD00448F21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 091930C918E697DD00448F21 /* InfoPlist.strings */; };
+		091930CD18E697DD00448F21 /* HelloMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 091930CC18E697DD00448F21 /* HelloMusicTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		091930C418E697DD00448F21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0919309718E697DD00448F21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0919309E18E697DD00448F21;
+			remoteInfo = HelloMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0919309F18E697DD00448F21 /* HelloMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		091930A218E697DD00448F21 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		091930A518E697DD00448F21 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		091930A618E697DD00448F21 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		091930A718E697DD00448F21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		091930AA18E697DD00448F21 /* HelloMusic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloMusic-Info.plist"; sourceTree = "<group>"; };
+		091930AC18E697DD00448F21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		091930AE18E697DD00448F21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		091930B018E697DD00448F21 /* HelloMusic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloMusic-Prefix.pch"; sourceTree = "<group>"; };
+		091930B218E697DD00448F21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		091930B418E697DD00448F21 /* bearAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bearAppDelegate.h; sourceTree = "<group>"; };
+		091930B518E697DD00448F21 /* bearAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bearAppDelegate.m; sourceTree = "<group>"; };
+		091930B818E697DD00448F21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		091930BA18E697DD00448F21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		091930C018E697DD00448F21 /* HelloMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		091930C118E697DD00448F21 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		091930C818E697DD00448F21 /* HelloMusicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloMusicTests-Info.plist"; sourceTree = "<group>"; };
+		091930CA18E697DD00448F21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		091930CC18E697DD00448F21 /* HelloMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloMusicTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0919309C18E697DD00448F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091930A318E697DD00448F21 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091930BD18E697DD00448F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091930C318E697DD00448F21 /* Cocoa.framework in Frameworks */,
+				091930C218E697DD00448F21 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0919309618E697DD00448F21 = {
+			isa = PBXGroup;
+			children = (
+				091930A818E697DD00448F21 /* HelloMusic */,
+				091930C618E697DD00448F21 /* HelloMusicTests */,
+				091930A118E697DD00448F21 /* Frameworks */,
+				091930A018E697DD00448F21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		091930A018E697DD00448F21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0919309F18E697DD00448F21 /* HelloMusic.app */,
+				091930C018E697DD00448F21 /* HelloMusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		091930A118E697DD00448F21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				091930A218E697DD00448F21 /* Cocoa.framework */,
+				091930C118E697DD00448F21 /* XCTest.framework */,
+				091930A418E697DD00448F21 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		091930A418E697DD00448F21 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				091930A518E697DD00448F21 /* AppKit.framework */,
+				091930A618E697DD00448F21 /* CoreData.framework */,
+				091930A718E697DD00448F21 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		091930A818E697DD00448F21 /* HelloMusic */ = {
+			isa = PBXGroup;
+			children = (
+				091930B418E697DD00448F21 /* bearAppDelegate.h */,
+				091930B518E697DD00448F21 /* bearAppDelegate.m */,
+				091930B718E697DD00448F21 /* MainMenu.xib */,
+				091930BA18E697DD00448F21 /* Images.xcassets */,
+				091930A918E697DD00448F21 /* Supporting Files */,
+			);
+			path = HelloMusic;
+			sourceTree = "<group>";
+		};
+		091930A918E697DD00448F21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				091930AA18E697DD00448F21 /* HelloMusic-Info.plist */,
+				091930AB18E697DD00448F21 /* InfoPlist.strings */,
+				091930AE18E697DD00448F21 /* main.m */,
+				091930B018E697DD00448F21 /* HelloMusic-Prefix.pch */,
+				091930B118E697DD00448F21 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		091930C618E697DD00448F21 /* HelloMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				091930CC18E697DD00448F21 /* HelloMusicTests.m */,
+				091930C718E697DD00448F21 /* Supporting Files */,
+			);
+			path = HelloMusicTests;
+			sourceTree = "<group>";
+		};
+		091930C718E697DD00448F21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				091930C818E697DD00448F21 /* HelloMusicTests-Info.plist */,
+				091930C918E697DD00448F21 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0919309E18E697DD00448F21 /* HelloMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091930D018E697DD00448F21 /* Build configuration list for PBXNativeTarget "HelloMusic" */;
+			buildPhases = (
+				0919309B18E697DD00448F21 /* Sources */,
+				0919309C18E697DD00448F21 /* Frameworks */,
+				0919309D18E697DD00448F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMusic;
+			productName = HelloMusic;
+			productReference = 0919309F18E697DD00448F21 /* HelloMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		091930BF18E697DD00448F21 /* HelloMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091930D318E697DD00448F21 /* Build configuration list for PBXNativeTarget "HelloMusicTests" */;
+			buildPhases = (
+				091930BC18E697DD00448F21 /* Sources */,
+				091930BD18E697DD00448F21 /* Frameworks */,
+				091930BE18E697DD00448F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				091930C518E697DD00448F21 /* PBXTargetDependency */,
+			);
+			name = HelloMusicTests;
+			productName = HelloMusicTests;
+			productReference = 091930C018E697DD00448F21 /* HelloMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0919309718E697DD00448F21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = bear;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TakoBear;
+				TargetAttributes = {
+					091930BF18E697DD00448F21 = {
+						TestTargetID = 0919309E18E697DD00448F21;
+					};
+				};
+			};
+			buildConfigurationList = 0919309A18E697DD00448F21 /* Build configuration list for PBXProject "HelloMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0919309618E697DD00448F21;
+			productRefGroup = 091930A018E697DD00448F21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0919309E18E697DD00448F21 /* HelloMusic */,
+				091930BF18E697DD00448F21 /* HelloMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0919309D18E697DD00448F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091930AD18E697DD00448F21 /* InfoPlist.strings in Resources */,
+				091930BB18E697DD00448F21 /* Images.xcassets in Resources */,
+				091930B318E697DD00448F21 /* Credits.rtf in Resources */,
+				091930B918E697DD00448F21 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091930BE18E697DD00448F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091930CB18E697DD00448F21 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0919309B18E697DD00448F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091930B618E697DD00448F21 /* bearAppDelegate.m in Sources */,
+				091930AF18E697DD00448F21 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091930BC18E697DD00448F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091930CD18E697DD00448F21 /* HelloMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		091930C518E697DD00448F21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0919309E18E697DD00448F21 /* HelloMusic */;
+			targetProxy = 091930C418E697DD00448F21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		091930AB18E697DD00448F21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091930AC18E697DD00448F21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		091930B118E697DD00448F21 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091930B218E697DD00448F21 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		091930B718E697DD00448F21 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091930B818E697DD00448F21 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		091930C918E697DD00448F21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091930CA18E697DD00448F21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		091930CE18E697DD00448F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		091930CF18E697DD00448F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		091930D118E697DD00448F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMusic/HelloMusic-Prefix.pch";
+				INFOPLIST_FILE = "HelloMusic/HelloMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		091930D218E697DD00448F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMusic/HelloMusic-Prefix.pch";
+				INFOPLIST_FILE = "HelloMusic/HelloMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		091930D418E697DD00448F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloMusic.app/Contents/MacOS/HelloMusic";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMusic/HelloMusic-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloMusicTests/HelloMusicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		091930D518E697DD00448F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloMusic.app/Contents/MacOS/HelloMusic";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMusic/HelloMusic-Prefix.pch";
+				INFOPLIST_FILE = "HelloMusicTests/HelloMusicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0919309A18E697DD00448F21 /* Build configuration list for PBXProject "HelloMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091930CE18E697DD00448F21 /* Debug */,
+				091930CF18E697DD00448F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		091930D018E697DD00448F21 /* Build configuration list for PBXNativeTarget "HelloMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091930D118E697DD00448F21 /* Debug */,
+				091930D218E697DD00448F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		091930D318E697DD00448F21 /* Build configuration list for PBXNativeTarget "HelloMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091930D418E697DD00448F21 /* Debug */,
+				091930D518E697DD00448F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0919309718E697DD00448F21 /* Project object */;
+}
